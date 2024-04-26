@@ -1,0 +1,99 @@
+body{
+    
+    background-image: url(./bg-light.jpg);
+    background-size: 100%;
+    background-position: 10%;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginform{
+    width:280px;
+    margin:15vh auto 0 auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding:50px;
+}
+
+h1{
+    
+    text-align:left;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0%;
+}
+
+h4{
+    text-align: left;
+    color:#000000;
+    margin-top: 10px;
+    margin-bottom:30px ;
+    font-size: 30px;
+}
+
+
+
+
+.loginbtn{
+  background:linear-gradient(to bottom right, #ef4777, #FF9A5A);
+  width: 100%;
+  border: 0;
+  margin-top:19px;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.btn:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.container{
+    color:#616365;
+}
+
+.logininputs{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+   
+
+}
+
+.logininputs input{
+    border-radius: 5px;
+    width : 90%;
+    border: none;
+    background-color: #f7f1f1;
+    padding:8px;
+    color:rgb(0, 0, 0);
+    
+  }
+
+.logininputs input:focus{
+    outline:0;
+}
+
+.loginlink{
+    color:rgb(213, 25, 75);
+    text-decoration: none;
+    
+}

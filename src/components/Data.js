@@ -1,0 +1,77 @@
+const list = [
+    {
+      id: 1,
+      title: "Nike Air Force 1 Low By You",
+      author: "Custom Women's Shoes",
+      price: 11895,
+      img: "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4aad29e5-e058-4797-b36a-601b24fef5c8/custom-nike-air-force-1-low-by-you.png",
+      amount: 1,
+    },
+    {
+      id: 2,
+      title: "Nike Air Force 1 Low By You",
+      author: "Custom Women's Shoes",
+      price: 11895,
+      img: "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/8b0523e6-ffde-497c-8b3e-7823e41e6615/custom-nike-air-force-1-low-by-you.png",
+      amount: 1,
+    },
+    {
+      id: 3,
+      title: "Nike Dunk Low Retro Premium",
+      author: "Men's Shoes",
+      price: 11895,
+      img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bcb23b9f-95f1-4308-9044-66e0f388b934/dunk-low-retro-shoes-7h7hLD.png",
+      amount: 1,
+    },
+    {
+      id: 4,
+      title: "Nike Dunk Low Retro Premium",
+      author: "Men's Shoes",
+      price: 10000,
+      img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9db63d32-5278-45e1-b128-bca036af34c1/book-1-ep-basketball-shoes-n7hzkw.png",
+      amount: 1,
+    },
+    {
+      id: 5,
+      title: "Nike Air Max 97",
+      author: "Men's Shoes",
+      price: 10000,
+      img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/104765fc-9feb-463f-ad7b-5c301a64e27d/air-max-97-shoes-B1mzl9.png",
+      amount: 1,
+    },
+    {
+      id: 6,
+      title: "Nike Air Max 97",
+      author: "Men's Shoes",
+      price: 7000,
+      img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/63a4adfa-125d-430c-8ff8-ed8a29096024/air-max-97-shoes-B1mzl9.png",
+      amount: 1,
+    },
+    {
+      id: 7,
+      title: "AIR JORDAN 1 MID ",
+      author: "OLDER KIDS' SHOES",
+      price: 8000,
+      img: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/h_467,c_limit/622d9c69-3cd7-4dff-ad4d-7fb732747414/air-jordan-1-mid-older-shoes-wqHdzW.png",
+      amount: 1,
+    },
+    {
+      id: 8,
+      title: "Nike Air Force 1 Shadow",
+      author: "Women's Shoes",
+      price: 9000,
+      img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2a610287-49cb-4f38-a307-aad0c4cc666e/air-force-1-shadow-shoes-mN8Glx.png",
+      amount: 1,
+    },
+    {
+      id: 9,
+      title: "Nike Court Vision Alta ",
+      author: "Women's Shoes",
+      price: 6000,
+      img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6edd5810-a51f-4347-8012-5bb11008596f/court-vision-alta-shoes-mHW8Jw.png",
+      amount: 1,
+    },
+    
+];
+
+export default list;

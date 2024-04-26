@@ -1,0 +1,171 @@
+.frontcontainer {
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top:10%;
+
+}
+
+.frontcontainer h1 {
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.frontimg{
+    width: 100%;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .frontcontainer {
+        padding: 10px;
+        background-color: #dfb893;
+        color: white;
+    }
+
+    .frontcontainer h1 {
+        font-size: 50px;
+        color: black;
+        padding-left: 30px;
+        
+    }
+
+    .frontcontainer span{
+        font-size: 80px;
+        color: white;
+        font-weight: bolder;
+        font-family: cursive;
+    }
+
+}    
+
+.frontpg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f6f4;
+    height: 50%;
+}
+
+ .downbtn{
+    size: 40px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 .searchbtn{
+    font-size: 50px;
+}
+
+.container1 .micbtn{
+    font-size: 50px;
+}
+
+.productspg{
+    background-color: white;
+    height: 700px;
+}
+
+.search-container {
+    position: relative;
+  }
+  
+  .searchbtn {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px; 
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .searchbtn:hover .search-input {
+    display: block;
+  }
+  
+  .focused .search-input::placeholder {
+    color: white;
+  }
+
+  .productspg{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1 {
+    font-size: 40px;
+    border-bottom: 5px solid #ff7b00; /* Underline color */
+}
+
+  .products{
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.aboutpg{
+    margin-bottom: 10%;
+    margin-top: 65%;
+    
+    
+}
+.aboutpg{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.aboutcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    gap: 3%;
+}  
+
+.aboutcontainer img{
+    width: 50%;
+}
+
+.aboutcontainer p{
+    font-size: 30px;
+    color: #ffd98c;
+    transition: 0.3s ease-in-out;
+}
+
+.aboutcontainer :hover{
+    
+    color: #ff7b00;
+    font-size: 31px;
+}
+  
